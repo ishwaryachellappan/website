@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<title>Google</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://www.google.com/favicon.ico">
+<style>
+
+
+
+li {font-family: arial,sans-serif;
+font-size: 13px; list-style: none; display: inline-block;}
+
+nav {text-align: right; padding-right: 160px; word-spacing: 10px;}
+
+#nav_bar #sign_in {
+  background: #4887ef; 
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 10px 15px;
+  border-radius: 5px; 
+  font-weight: bold;
+}
+
+#userName {opacity: .55;}
+
+a, a:visited {color: black; text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+img, #searchBox {display: block;
+margin-left: auto;
+margin-right: auto;}
+
+img {margin-top: 200px}
+
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 300px;
+}
+
+
+footer  {
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  float: right;
+}
+
+
+
+
+ .footer-right {
+   float: none;
+   text-align: center;
+   
+ }
+}
+
+
+</style>
+</head>
+<body>
+
+<header>
+      <nav>
+        <ul id="nav_bar">
+          <li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
+          <li class="nav-links"><a href="#">Images</a></li>
+          <li id="sign_in"><a href="#">Sign_in</a></li>
+        </ul>  
+      </nav>  
+    </header> 
+
+<div style="border:1px solid black"></div>
+
+
+    
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo"> 
+    
+   
+     
+   <input id="searchBox" type="text" name="searchBox"><br>
+        <div id="googleSearch">
+   
+     
+      <form div class= "buttons">  
+      <input type="submit" value="Google Search" id="google_search">
+      <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+    </div>
+   
+    
+   
+    </form>
+    
+
+<footer>
+<ul class="footer-left">
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">How search works</a></li>
+ 
+        </ul>
+        <ul class="footer-right">    
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul> 
+        </footer>
+        </body>
+</html>
